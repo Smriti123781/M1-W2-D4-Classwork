@@ -355,7 +355,8 @@ font-weight: 600;
 
 .sb1 img,
 .sb2 img,
-.sb3 img{
+.sb3 img
+.pp1 img{
     height: 6em;
     width: auto;
 }
@@ -393,4 +394,139 @@ font-weight: 600;
 .serv-txt{
     margin-bottom: 1em;
 }
-/* x - Services - x */
+
+/*Pricing Plans*/
+.index-pricing-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing-box{
+    margin-top: 1em;
+    height: max-content;
+    width: 17em; 
+    background: white;
+    border-radius: 1.5em;
+}
+
+.index-abt-sec .pp1{
+    background-color: #2e2b45;
+    padding: 1em;
+}
+
+.pricing-feature{
+    margin-top: .7em;
+    font-weight: 600;
+}
+
+.pricing-dollar{
+    margin-top: .7em;
+}
+
+.pricing-dollar span{
+    font-size: 30pt;
+    font-weight: 500;
+}
+
+.pricing-mid-box div{
+    padding: 3em 0;
+}
+
+.pricing-btn{
+    font-size: 12pt;
+    font-weight: 600;
+    padding: .5em 1.5em;
+    background: #eb4b60;
+    border: none;
+    border-radius: 2em;
+    color: white;
+    margin-top: 1em;
+}
+
+.pricing-btn:hover{
+    background: #eb4b60e0;
+    cursor: pointer;
+    color: #ece9e9;
+}
+
+/* Experience */
+
+.exp-status{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.exp-status .pricing-box{
+    width: 50%;
+    margin: 1em;
+}
+
+.exp-status .pricing-box div span{
+    display: inline-block;
+    height: 23em;
+    width: .1em;
+    background: #eb4b60;
+}
+
+.exp-status .pricing-box div {
+    display: flex;
+}
+
+.exp-status .pricing-box div span .fas{
+    color: #eb4b60;
+    margin-left: -.3em;
+    display: block;
+}
+
+.exp-1{
+    margin-bottom: 8.5em;
+    margin-top: .2em;
+}
+
+.exp-2{
+    margin-bottom: 8.5em;
+}
+
+.exp-details{
+    margin-left: 1em;
+    display: block !important;
+}
+
+.exp-detail-1{
+    display: block !important;
+    text-align: left;
+}
+
+.exp-detail-1 h1{
+    font-size: 14pt;
+    font-weight: 600;
+    margin: .5em 0;
+}
+
+.exp-detail-1 p{
+    font-weight: 300;
+    font-size: 10pt;
+}
+
+.margin-alt{
+    margin-bottom: 2em;
+}
+
+.pricing-box-height{
+    height: max-content!important;
+}
+
+.pricing-foot{
+    background-color: #2e2b45;
+    padding: 1em;
+    margin: .5em 5em;
+    border-radius: .8em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10pt;
+    font-weight: 300;
+    color: white;
+}
+
